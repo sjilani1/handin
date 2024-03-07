@@ -1,0 +1,149 @@
+body {
+    font-family: 'Poppins', 'Mulish';
+    margin: 0;
+    padding: 0;
+    background-color: rgba(120, 76, 54, 1);
+    color:rgb(208, 174, 23)
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.overview h2 { 
+    font-family: 'Poppins';
+    font-size: '20'; 
+    color:  rgb(208, 174, 23);
+
+}
+
+.overview p { 
+    font-family: 'Mulish';
+    font-size: '12'; 
+    color:   #D5D8EA;
+
+}
+
+.mockups 
+ { 
+    display: flex;
+    flex-direction: row;
+    gap:1em; 
+    margin-top: 8em; 
+    /* grid-template-columns: auto auto;
+    grid-template-areas: 
+    "left right"; */
+    justify-content: space-between;
+   align-items: center;
+    margin: 5em 0 ;
+    padding: 5px; 
+    background-size: cover;
+    width: 100%;
+ }
+
+ .left-col { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5em 0 ;
+    padding: 5px; 
+    gap: 1em; 
+  
+
+    
+   
+ }
+
+
+ .card1 { 
+    /* display: grid;  */
+    border: .8em;
+    padding: 16px; 
+    /* background-size: 200%; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+
+    
+   
+}
+
+.card-details { 
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.card-details2 { 
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: auto;
+}
+
+.card-details2 img{ 
+   
+    transform: rotate(270deg);
+    width: 250px;
+    height: auto
+
+}
+.card-details img { 
+
+    width: 350px;
+    height: auto
+}
+
+.menu {
+    text-decoration: none;
+}
+
+.card-details { 
+    display: flex;
+    font-family: "Mulish" ;
+    background-color: rgb(208, 174, 23) ;
+    font-size: 1.5rem; 
+    color: rgba(51, 17, 17, 1); 
+    text-decoration: none;
+    border-radius: 1.2em;
+    padding: 1em 2em; 
+    margin: 0 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 5em 0; 
+    
+}
+
+.card-details2 { 
+    display: flex;
+    font-family: "Mulish" ;
+    background-color:  rgb(208, 174, 23) ;
+    font-size: 1.5rem; 
+    color: rgba(51, 17, 17, 1); 
+    text-decoration: none;
+    border-radius: 1.2em;
+    padding: 1em 2em; 
+    margin: 0 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 5em 0; 
+    
+}
+
+
+
+
