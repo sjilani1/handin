@@ -2,8 +2,8 @@ body {
     font-family: 'Poppins', 'Mulish';
     margin: 0;
     padding: 0;
-    background-color: rgba(120, 76, 54, 1);
-    color:rgb(208, 174, 23)
+    background-color: pink;
+    color:white
 }
 
 .wrapper {
@@ -21,14 +21,14 @@ header {
 .overview h2 { 
     font-family: 'Poppins';
     font-size: '20'; 
-    color:  rgb(208, 174, 23);
+    color:  purple;
 
 }
 
 .overview p { 
     font-family: 'Mulish';
     font-size: '12'; 
-    color:   #D5D8EA;
+    color:   purple;
 
 }
 
@@ -112,6 +112,40 @@ header {
     text-decoration: none;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+h1, h2 {
+    margin-top: 30px;
+}
+
+
+ul {
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
 .card-details { 
     display: flex;
     font-family: "Mulish" ;
@@ -125,13 +159,13 @@ header {
     align-items: center;
     justify-content: center;
     margin: 5em 0; 
+  
     
 }
 
 .card-details2 { 
     display: flex;
     font-family: "Mulish" ;
-    background-color:  rgb(208, 174, 23) ;
     font-size: 1.5rem; 
     color: rgba(51, 17, 17, 1); 
     text-decoration: none;
@@ -141,6 +175,7 @@ header {
     align-items: center;
     justify-content: center;
     margin: 5em 0; 
+    transform: rotate(90deg)
     
 }
 
